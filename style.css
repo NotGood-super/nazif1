@@ -1,0 +1,193 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    
+    
+    background-image: url("./img/tailoring-tailor-costume-apparel.jpg");  
+    background-repeat: no-repeat;  
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+    height: 100vh;
+    overflow: hidden;
+    
+    
+}
+.section .div-section {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+.section .div-section .img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-bottom: 0.8rem;
+    border: 3px solid #C7b39b;
+}
+.section .div-section h2 {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+    color: #C7b39b;
+    letter-spacing: 1.4rem;
+}
+
+.section .div-section p {
+    font-size: 1.5rem;
+    color:#C7b39b;
+    font-style: italic;
+}
+
+.section .div-section .social{
+    margin-top: 0.8rem;
+    border-radius: 0.3rem;
+    width: 350px;
+    background-color: #191512;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.section .div-section .social:hover {
+    background-color: #c7b39b79;
+}
+
+.section .div-section .social a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #C7b39b;
+}
+
+.section .div-section .social a i {
+    margin-right: 7rem;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 900px) {
+
+   
+
+    .section .div-section .img {
+        width: 140px;
+        height: 140px;
+        margin-bottom: 1rem;
+    }
+    .section .div-section h2 {
+        font-size: 2rem;
+        margin-bottom: 1.2rem;
+        letter-spacing: 0.8rem;
+    }
+
+    .section .div-section p {
+        font-size: 1rem;
+    }
+
+    .section .div-section .social{
+        width: 200px;
+    }
+    .section .div-section .social:hover {
+        background-color: #c7b39b79;
+    }
+    
+    .section .div-section .social a {
+        font-size: 1.2rem;
+    }
+
+    .section .div-section .social a i {
+        margin-right: 2.9rem;
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .section{
+        background-image: url(./img/7391e4c3c742a5f6dd149da1b9af4f3c.jpg);
+    background-color: #191512;
+    height: 100vh;
+    overflow: hidden;
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        
+        
+    }
+    
+    .section .div-section {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+        
+    }
+
+    .section .div-section .img {
+        width: 120px;
+        height: 120px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+        border: 3px solid #C7b39b;
+    }
+    .section .div-section h2 {
+        font-size: 2rem;
+        margin-bottom: 1.3rem;
+        color: #C7b39b;
+        letter-spacing: 0.7rem;
+    }
+
+    .section .div-section p {
+        font-size: 1rem;
+        color:#C7b39b;
+        font-style: italic;
+    }
+
+    .section .div-section .social{
+        margin-top: 1rem;
+        border-radius: 0.3rem;
+        width: 200px;
+        background-color: #191512;
+        padding: 0.8rem;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .section .div-section .social:hover {
+        background-color: #c7b39b79;
+    }
+    
+    .section .div-section .social a {
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #C7b39b;
+    }
+
+    .section .div-section .social a i {
+        margin-right: 2.8rem;
+        font-size: 1.2rem;
+    }
+
+
+
+}
